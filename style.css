@@ -12,3 +12,7 @@ html, body {
 .footer, .push {
   height: 50px;
 }
+.carousel-inner{
+    margin: 0 auto;
+    width: 60%;
+}
