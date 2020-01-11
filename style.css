@@ -1,1 +1,14 @@
 #terrelltitle { text-align: center; padding: 20px; }
+.terrellfooter { text-align: center; padding: 20px; }
+.terrellinfo { margin-top: 60px;}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+.wrapper {
+    min-height: 73%;
+    margin-bottom: -50px;
+  }
+.footer, .push {
+  height: 50px;
+}
