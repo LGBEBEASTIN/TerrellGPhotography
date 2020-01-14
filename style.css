@@ -1,18 +1,70 @@
-#terrelltitle { text-align: center; padding: 20px; }
-.terrellfooter { text-align: center; padding: 20px; }
-.terrellinfo { margin-top: 60px;}
+#terrelltitle { text-align: center; padding: 20px; margin: 10px; background-color: white; border-radius: 50px;}
+
+.terrellfooter { text-align: center; padding: 20px; background-color: white; }
+
+.terrellinfo { margin-top: 60px; border-radius: 20px; background-color: rgb(55,145,255);}
+
+.terrellinfo .display-4 { background-color: white; border-radius: 20px; padding: 10px;}
+
+.terrellinfo .lead { background-color: white; border-radius: 20px; padding: 10px;}
+
+.carousel {margin-top: 30px; background-color: white; padding: 10px; border-radius: 20px;}
+
 html, body {
     height: 100%;
     margin: 0;
   }
+
+body {
+    font-family: 'Boogaloo', cursive;
+    color: black;
+    background-color: rgba(200, 200, 200,0.35);
+}
+
 .wrapper {
     min-height: 73%;
     margin-bottom: -50px;
   }
+
 .footer, .push {
   height: 50px;
 }
+
 .carousel-inner{
     margin: 0 auto;
     width: 60%;
 }
+
+.firstrow {margin: 20px;}
+
+.secondrow {margin: 20px;}
+
+.gallerypic {margin-bottom: 10px;}
+
+.galleryinfo { margin-top: 60px; text-align: center; background-color: rgb(255,182,55); border-radius: 20px;}
+
+.contactinfo {margin-top: 60px; margin-right: 20px; margin-left: 20px; background-color: rgb(255,82,55); 
+    border-radius: 20px;}
+
+.sociallinks {
+    background-color: white;
+    border: 5px solid black;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.mirrorpic{
+    width: 100%;
+    height: 100%;
+}
+
+header h1 {font-size: 50px;}
+
+.nav {background-color: white; border-radius: 50px;}
+.active {border-radius: 50px; background-color: rgb(170, 170, 250);}
+
+body a {color: black}
+
+.navhome{background-color: rgb(55,145,255); border-radius: 50px;}
+.navgallery{background-color: rgb(255,182,55); border-radius: 50px;}
+.navcontact{background-color: rgb(255,82,55); border-radius: 50px;}
